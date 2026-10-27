@@ -1,0 +1,19 @@
+# Private configuration and local data
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+# Dependencies and generated output
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+dist/
+coverage/
+.pytest_cache/
+.vite/
+.DS_Store

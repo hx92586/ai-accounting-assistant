@@ -1,0 +1,21 @@
+[project]
+name = "accounting-backend"
+version = "1.0.0"
+description = "AI Accounting Assistant"
+requires-python = ">=3.11,<3.15"
+
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.2",
+    "pydantic>=2.0",
+    "email-validator>=2.0",
+    "python-dotenv>=1.0",
+    "PyJWT>=2.9",
+    "pwdlib[argon2]>=0.2",
+    "loguru>=0.7",
+    "langchain>=1.4.7",
+    "langchain-openai>=1.7.3",
+    "langgraph>=1.2.18",
+]
