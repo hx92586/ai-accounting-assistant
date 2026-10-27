@@ -1,7 +1,7 @@
 <div align="center">
 
-# AI Accounting Assistant
-### AI 智能记账助手 · 全栈项目作品
+# AI 智能记账助手
+### 基于 Vue 3 与 FastAPI 的全栈记账项目
 
 **Vue 3 · FastAPI · SQLAlchemy · PostgreSQL · LangChain · Qwen**
 
@@ -15,9 +15,11 @@
 
 一个将传统账单管理与 AI 工具调用结合的全栈应用。用户可以注册和登录，管理个人收支、按条件查询账单、查看分类统计，也可以通过中文对话让智能体调用记账工具。
 
+后端使用 FastAPI 提供接口，SQLAlchemy 管理数据库，JWT 实现身份验证；前端使用 Vue 3 构建交互界面；AI 部分通过 LangChain 接入通义千问，将用户的自然语言请求转化为受用户权限约束的业务操作。
+
 **面向招聘者：** 本仓库集中展示前端界面、后端 API、数据模型、用户鉴权及 AI Agent 集成。重点代码位于 [backend/main.py](backend/main.py)、[backend/agent_service.py](backend/agent_service.py) 和 [frontend/src/App.vue](frontend/src/App.vue)。
 
-**English overview:** A full-stack personal finance application built with Vue 3 and FastAPI. It combines authenticated expense tracking, filtered queries and category summaries with a Qwen-powered LangChain agent that invokes user-scoped accounting tools. This repository contains the source code, real application screenshots with synthetic data, setup instructions and API regression tests.
+**项目目标：** 将自然语言交互与结构化账单管理结合，让用户既能通过表单准确录入收支，也能用日常语言完成记账、查询和统计。本项目覆盖前端交互、后端接口、数据库操作、用户认证及智能体工具调用，展示一条完整的全栈开发流程。
 
 > 这是源码作品页，未提供公网在线服务。界面截图来自本地运行的真实应用，账号和账单均为专门生成的演示数据。
 
